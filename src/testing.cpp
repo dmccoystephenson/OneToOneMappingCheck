@@ -192,6 +192,7 @@ int main() {
         std::cout << "Run another test? (y/n): ";
         std::cin >> c;
         if (c == 'y') {
+            std::cout << std::endl;
             runInteractiveTest();
         }
         else {
